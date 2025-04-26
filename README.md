@@ -34,7 +34,7 @@ This program compares two datasets (`original_df` and `protected_df`) to find ma
 import pandas as pd
 import numpy as np
 
-#### What Has Been Completed
+# What Has Been Completed
 ✅ Imported necessary libraries (pandas, numpy).
 
 ✅ Loaded the original and protected datasets.
@@ -57,7 +57,7 @@ Optimized version: Using dictionary hashing to achieve fast (O(n)) matching.
 
 ✅ Planned and almost saved frequency counts into a separate CSV file.
 
-##### Key Features of the Program
+# Key Features of the Program
 Tolerance-based matching (handles slight differences in numerical ratios).
 Efficient lookup using dictionary keys.
 Exportability: Everything is exported to CSV files for further usage.
