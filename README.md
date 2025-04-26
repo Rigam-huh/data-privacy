@@ -30,10 +30,32 @@ This program compares two datasets (`original_df` and `protected_df`) to find ma
 
 ## Code Structure
 
-### 1. Initial Setup
-```python
+### Initial Setup
 import pandas as pd
 import numpy as np
+
+#### What Has Been Completed
+✅ Imported necessary libraries (pandas, numpy).
+
+✅ Loaded the original and protected datasets.
+
+✅ Selected and verified important columns (Groceries, Transport, etc.).
+
+✅ Created new ratio columns (e.g., Groceries_to_income) to normalize expenses.
+
+✅ Developed two versions of the matching logic:
+
+Old version: Brute-force nested loop (O(n²)) — correct but slow.
+
+Optimized version: Using dictionary hashing to achieve fast (O(n)) matching.
+
+✅ Found matching rows and collected them into a new DataFrame (matches_df).
+
+✅ Saved the matched results into a CSV file (out.csv).
+
+✅ Performed frequency analysis on the Original_Name column.
+
+✅ Planned and almost saved frequency counts into a separate CSV file.
 
 
 
