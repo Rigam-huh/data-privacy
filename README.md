@@ -57,5 +57,10 @@ Optimized version: Using dictionary hashing to achieve fast (O(n)) matching.
 
 ✅ Planned and almost saved frequency counts into a separate CSV file.
 
+##### Key Features of the Program
+Tolerance-based matching (handles slight differences in numerical ratios).
+Efficient lookup using dictionary keys.
+Exportability: Everything is exported to CSV files for further usage.
+Simple, modular code structure (easy to add more matching criteria later).
 
 
